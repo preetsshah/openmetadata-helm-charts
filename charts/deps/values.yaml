@@ -70,7 +70,7 @@ airflow:
       AIRFLOW__OPENMETADATA_SECRETS_MANAGER__AWS_ACCESS_KEY: ""
     users:
     - username: admin
-      password: admin
+      password: AgA1lleQwPdI5VJuvkBPOIoDJTwzHWI4yDYvY7m8HEWP4IBFKlw6fKIU+rCs3rncx+LsJVUFOR+bmrKhcs5JptDEFXeZ1DZfQshR1OptJFToH6ysPoOXVVXP/5cbpkcOjpV3UKegL0Jrxi6SXZWnh/TlxwqG/nmrv9+IE/K8+7c3qG2ARb5Ba97D06od1gI5DUxGpwKKwLdduBb5zkyQnV2+zpuEIvEaeU20rfz9DjuPsCSFbmiE41Qq9NcIQQIqgSvs1vqVInTiS/RB91AUO+ELFqnlm3kbrCCdYTFBk/LJc/rAiehSDO0/y1TnoG8EEfXFe0lgA8LMPeJqkIT0+CLmTNXWEgzU4mrDEAwTfd/8oE6N5SPjEMCS2qHOHXePgeL1oBXUrCWJ+lWkQNYtoiOqDVl+1uWZr4RbvO6J+YKLH6Gb1atbK7ojI8O4t50k3pf38PintspBWH1FU8JhCfY6YEIg9VzZTJnEiV/LOx/EbzvcIp8QTHAte4SykWf2bSGM7/lsKipfELN+xf5LuimvlMK6x2n65OD4iSeuJnZBi3RVMW0c6NF7DG4QtrwLS3Dea9/xJVJEkZMFCYDI6fT+nqVQ7iy1QS5pH6Y0/SaqZokZBbs2op76IKFJq6kD3cK+1HHCEAAbgvViMtTVkFpJ+TC1naUIdQRgx0wJjF77tHDkzHvDBldGtwx7Z/CjLRSN9B897A==
       role: Admin
       email: spiderman@superhero.org
       firstName: Peter
