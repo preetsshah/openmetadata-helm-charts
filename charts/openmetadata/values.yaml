@@ -21,7 +21,7 @@ openmetadata:
       adminPort: 8586
     elasticsearch:
       enabled: true
-      host: opensearch
+      host: elasticsearch
       searchType: opensearch
       port: 9200
       scheme: http
@@ -64,7 +64,7 @@ openmetadata:
       metadataApiEndpoint: http://openmetadata:8585/api
       # possible values are "no-ssl", "ignore", "validate"
       verifySsl: "no-ssl"
-      hostIp: ""
+      hostIp: "localhost"
       ingestionIpInfoEnabled: false
       # healthCheckInterval in seconds
       healthCheckInterval: 300
@@ -76,6 +76,10 @@ openmetadata:
         password:
           secretRef: airflow-secrets
           secretKey: openmetadata-airflow-password
+        truststorePath: ""
+        truststorePassword:
+          secretRef: ""
+          secretKey: ""
     authorizer:
       enabled: true
       className: "org.openmetadata.service.security.DefaultAuthorizer"
